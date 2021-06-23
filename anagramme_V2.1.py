@@ -6,7 +6,7 @@ root = Tk()
 root.title("Petit jeu de lettres")
 root.configure(background='black')
 root.geometry("400x600")
-root.iconbitmap("C:/Users/eriol/Desktop/anagramme/alphabet.ico")
+root.iconbitmap("C:/Users/eriol/Desktop/programmation/anagramme/alphabet.ico")
 
 # --------------------------------LES FONCTIONS---------------------------------------------------
 def jeu_3_label():
@@ -127,7 +127,7 @@ def jeu_6_label():
 
 def melange3():    
     # On crée la liste de mots de 3 lettres a partir u fichier tetxe
-    with open("C:/Users/eriol/Desktop/anagramme/liste.txt") as file:
+    with open("C:/Users/eriol/Desktop/programmation/anagramme/liste.txt") as file:
         lines = file.readlines()  
     # on transforme en liste :
     liste = []
@@ -156,7 +156,7 @@ def melange3():
     
 def melange4():
     # On crée la liste de mots de 4 lettres a partir u fichier tetxe
-    with open("C:/Users/eriol/Desktop/anagramme/liste.txt") as file:
+    with open("C:/Users/eriol/Desktop/programmation/anagramme/liste.txt") as file:
         lines = file.readlines()  
     # on transforme en liste :
     liste = []
@@ -185,7 +185,7 @@ def melange4():
         
 def melange5():
     # On crée la liste de mots de 5 lettres a partir u fichier tetxe
-    with open("C:/Users/eriol/Desktop/anagramme/liste.txt") as file:
+    with open("C:/Users/eriol/Desktop/programmation/anagramme/liste.txt") as file:
         lines = file.readlines()  
     # on transforme en liste :
     liste = []
@@ -214,7 +214,7 @@ def melange5():
 
 def melange6():
     # On crée la liste de mots de 5 lettres a partir u fichier tetxe
-    with open("C:/Users/eriol/Desktop/anagramme/liste.txt") as file:
+    with open("C:/Users/eriol/Desktop/programmation/anagramme/liste.txt") as file:
         lines = file.readlines()  
     # on transforme en liste :
     liste = []
